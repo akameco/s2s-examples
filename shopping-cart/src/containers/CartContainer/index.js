@@ -26,7 +26,7 @@ class CartContainer extends React.Component<Props> {
 }
 
 const ms = (state: State) => ({
-  products: selectors.getCardProduct(state),
+  products: selectors.getCartProducts(state),
   total: selectors.getTotal(state),
 })
 

@@ -53,7 +53,9 @@ module.exports = {
     { test: /components\/.*\/index.js/, input: 'components.js' },
     { test: /components\/.*\/index.test.js/, input: 'component.test.js' },
     { test: /reducer.js/, input: 'reducer.js' },
+    { test: /reducer.test.js/, input: 'reducer.test.js' },
     { test: /selectors.js/, input: 'selectors.js' },
+    { test: /selectors.test.js/, input: 'selectors.test.js' },
     { test: /logic.js/, input: 'logic.js' },
   ],
 }

@@ -7,7 +7,7 @@ export const getQuantity = (state: State, productId: number) =>
 
 export const getAddedIds = (state: State) => state.CartContainer.addedIds
 
-export const getCardProduct = (state: State) =>
+export const getCartProducts = (state: State) =>
   getAddedIds(state).map(id => ({
     ...getProduct(state, id),
     quantity: getQuantity(state, id),
