@@ -1,5 +1,5 @@
 // @flow
-import type { Action, Product, Cart, QuantityById } from '../../types'
+import type { Action, Cart, QuantityById } from '../../types'
 import { Actions } from './actionTypes'
 
 export type State = Cart

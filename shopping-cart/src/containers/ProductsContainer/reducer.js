@@ -1,5 +1,5 @@
 // @flow
-import type { Product, Action } from '../../types'
+import type { Action } from '../../types'
 import { Actions } from './actionTypes'
 
 export type State = number[]
