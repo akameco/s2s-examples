@@ -36,7 +36,7 @@ function quantityById<S: QuantityById>(state: S, action: Action): Exact<S> {
 
 export default function(
   state: State = initialState,
-  action: Action
+  action: Action,
 ): Exact<State> {
   switch (action.type) {
     case Actions.CHECKOUT_REQUEST:

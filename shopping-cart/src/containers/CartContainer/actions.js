@@ -6,18 +6,18 @@ import type { CheckoutRequest, CheckoutSuccess, AddToCart } from './actionTypes'
 
 export function checkoutRequest(): CheckoutRequest {
   return {
-    type: CHECKOUT_REQUEST,
+    type: CHECKOUT_REQUEST
   }
 }
 export function checkoutSuccess(cart: Cart): CheckoutSuccess {
   return {
     type: CHECKOUT_SUCCESS,
-    cart,
+    cart
   }
 }
 export function addToCart(productId: number): AddToCart {
   return {
     type: ADD_TO_CART,
-    productId,
+    productId
   }
 }

@@ -11,21 +11,21 @@ export const ADD_TO_CART: 'CartContainer/ADD_TO_CART' =
 export const Actions = {
   CHECKOUT_REQUEST,
   CHECKOUT_SUCCESS,
-  ADD_TO_CART,
+  ADD_TO_CART
 }
 
 export type CheckoutRequest = {
-  type: typeof CHECKOUT_REQUEST,
+  type: typeof CHECKOUT_REQUEST
 }
 
 export type CheckoutSuccess = {
   type: typeof CHECKOUT_SUCCESS,
-  cart: Cart,
+  cart: Cart
 }
 
 export type AddToCart = {
   type: typeof ADD_TO_CART,
-  productId: number,
+  productId: number
 }
 
 export type Action = CheckoutRequest | CheckoutSuccess | AddToCart

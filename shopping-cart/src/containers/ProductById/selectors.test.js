@@ -13,7 +13,7 @@ beforeEach(() => {
       actions.receiveProducts([
         { id: 1, title: 'Product 1', inventory: 2, price: 100 },
         { id: 2, title: 'Product 2', inventory: 1, price: 100 },
-      ])
+      ]),
     ),
   }
 })

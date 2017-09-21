@@ -7,5 +7,5 @@ import ProductsContainer from './containers/ProductsContainer/reducer'
 export default combineReducers({
   CartContainer,
   ProductById,
-  ProductsContainer,
+  ProductsContainer
 })

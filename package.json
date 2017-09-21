@@ -10,25 +10,19 @@
     "url": "akameco.github.io"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
-    "prettier": "prettier --write '**/*.js'",
-    "lint": "eslint .",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "precommit": "lint-staged",
+    "fmt": "prettier --write '**/*.{js,json}'"
   },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    ""
-  ],
-  "dependencies": {},
+  "lint-staged": {
+    "*.js": ["fmt", "git add"],
+    "*.json": ["fmt", "git add"]
+  },
   "devDependencies": {
-    "eslint": "^4.6.0",
-    "eslint-config-precure": "^0.8.0",
-    "jest": "^20.0.4",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.1",
     "prettier": "^1.6.1"
   }
 }

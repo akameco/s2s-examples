@@ -10,7 +10,6 @@ class Container extends React.Component<Props> {
   render() {
     const { props } = this
     return <div>{props}</div>
-    )
   }
 }
 

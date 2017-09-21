@@ -7,6 +7,6 @@ import type { ReceiveProducts } from './actionTypes'
 export function receiveProducts(products: Product[]): ReceiveProducts {
   return {
     type: RECEIVE_PRODUCTS,
-    products,
+    products
   }
 }

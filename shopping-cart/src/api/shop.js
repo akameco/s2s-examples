@@ -12,7 +12,7 @@ export function getProducts(cb: Function, timeout: number = TIMEOUT) {
 export function buyProducts(
   payload: *,
   cb: Function,
-  timeout: number = TIMEOUT
+  timeout: number = TIMEOUT,
 ) {
   setTimeout(() => {
     cb()
