@@ -1,0 +1,34 @@
+{
+  "name": "s2s-examples",
+  "version": "0.0.0",
+  "description": "s2s examples",
+  "license": "MIT",
+  "repository": "akameco/s2s-examples",
+  "author": {
+    "name": "akameco",
+    "email": "akameco.t@gmail.com",
+    "url": "akameco.github.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.js'",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-config-precure": "^0.8.0",
+    "jest": "^20.0.4",
+    "prettier": "^1.6.1"
+  }
+}
