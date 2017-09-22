@@ -3,6 +3,8 @@
 
 > s2s examples
 
+![demo](./media/demo.gif)
+
 
 ## ShoppingCart
 React+redux+flowtype
