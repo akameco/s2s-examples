@@ -6,5 +6,5 @@ import type { State as ProductsContainer } from '../containers/ProductsContainer
 export type State = {
   CartContainer: CartContainer,
   ProductById: ProductById,
-  ProductsContainer: ProductsContainer
+  ProductsContainer: ProductsContainer,
 }
