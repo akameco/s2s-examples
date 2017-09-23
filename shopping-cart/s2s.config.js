@@ -30,7 +30,7 @@ module.exports = {
       ],
     },
     {
-      test: /reducer.js/,
+      test: /containers\/.+reducer.js/,
       input: rootStatePath,
       output: rootStatePath,
       plugin: [
@@ -39,7 +39,7 @@ module.exports = {
       ],
     },
     {
-      test: /reducer.js/,
+      test: /containers\/.+reducer.js/,
       input: rootReducerPath,
       output: rootReducerPath,
       plugin: [

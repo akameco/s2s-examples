@@ -5783,9 +5783,9 @@ rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
-s2s@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/s2s/-/s2s-0.5.0.tgz#93f304e462d57caf7c5b53225255b85663ccac61"
+s2s@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/s2s/-/s2s-0.5.3.tgz#4b2c6486a4376580df233d6da5879754c782411a"
   dependencies:
     babel-core "^6.25.0"
     babel-polyfill "^6.26.0"
