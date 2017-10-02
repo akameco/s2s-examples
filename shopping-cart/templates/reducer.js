@@ -4,7 +4,7 @@ import { Actions } from './actionTypes'
 
 export type State = {}
 
-const initialState: State = {}
+export const initialState: State = {}
 
 export default function(
   state: State = initialState,
