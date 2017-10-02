@@ -5,7 +5,7 @@ import { Actions as CartActions } from '../CartContainer/actionTypes'
 
 export type State = { [id: number]: Product }
 
-const initialState: State = {}
+export const initialState: State = {}
 
 function products(state: Product, action: Action): Exact<Product> {
   switch (action.type) {

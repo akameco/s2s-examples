@@ -6,15 +6,15 @@ test('handle initial state', () => {
   expect(reducer(undefined, { type: '@@INIT' })).toEqual(initialState)
 })
 
-test('handle CHECKOUT_REQUEST action', () => {
-  expect(reducer(initialState, actions.checkoutRequest())).toEqual(initialState)
-})
-
-test('handle ADD_TO_CART action', () => {
+test('handle ADD_TO_CART', () => {
   expect(reducer(initialState, actions.addToCart(1))).toEqual({
     addedIds: [1],
     quantityById: { '1': 1 },
   })
+})
+
+test('handle CHECKOUT_REQUEST', () => {
+  expect(reducer(initialState, actions.checkoutRequest())).toEqual(initialState)
 })
 
 test('when product is already in cart handle ADD_TO_CART action', () => {
