@@ -4,7 +4,7 @@ import { Actions } from './actionTypes'
 
 export type State = Cart
 
-const initialState: State = {
+export const initialState: State = {
   addedIds: [],
   quantityById: {},
 }

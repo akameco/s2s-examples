@@ -31,6 +31,12 @@ module.exports = {
     },
     {
       test: /containers\/.+reducer.js/,
+      input: 'reducer.test.js',
+      output: 'reducer.test.js',
+      plugin: ['s2s-reducer-test-case'],
+    },
+    {
+      test: /containers\/.+reducer.js/,
       input: rootStatePath,
       output: rootStatePath,
       plugin: [

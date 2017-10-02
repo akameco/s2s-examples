@@ -1,29 +1,23 @@
 // @flow
-import reducer from './reducer'
+import reducer, { initialState } from './reducer'
 import * as actions from './actions'
 
-const initialState = {
-  addedIds: [],
-  quantityById: {},
-}
-
-test('provide the initial state', () => {
-  // $FlowFixMe
-  expect(reducer(undefined, {})).toEqual(initialState)
+test('handle initial state', () => {
+  expect(reducer(undefined, { type: '@@INIT' })).toEqual(initialState)
 })
 
-test('handle checkoutRequest action', () => {
+test('handle CHECKOUT_REQUEST action', () => {
   expect(reducer(initialState, actions.checkoutRequest())).toEqual(initialState)
 })
 
-test('handle addToCart action', () => {
+test('handle ADD_TO_CART action', () => {
   expect(reducer(initialState, actions.addToCart(1))).toEqual({
     addedIds: [1],
     quantityById: { '1': 1 },
   })
 })
 
-test('when product is already in cart handle addToCart action', () => {
+test('when product is already in cart handle ADD_TO_CART action', () => {
   const state = {
     addedIds: [1, 2],
     // $FlowFixMe
