@@ -19,10 +19,10 @@
   },
   "devDependencies": {
     "babel-plugin-s2s-action-creater": "^0.1.3",
-    "babel-plugin-s2s-action-root": "^0.2.0",
+    "babel-plugin-s2s-action-root": "^0.2.1",
     "babel-plugin-s2s-action-types": "^0.2.1",
     "babel-plugin-s2s-reducer-root": "^0.1.1",
-    "babel-plugin-s2s-reducer-test-case": "^0.2.0",
+    "babel-plugin-s2s-reducer-test-case": "^0.3.0",
     "babel-plugin-s2s-state-root": "^0.1.3",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",

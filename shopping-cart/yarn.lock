@@ -588,9 +588,9 @@ babel-plugin-s2s-action-creater@^0.1.3:
     lodash.camelcase "^4.3.0"
     lodash.snakecase "^4.1.1"
 
-babel-plugin-s2s-action-root@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-root/-/babel-plugin-s2s-action-root-0.2.0.tgz#1f87aa89d822922018be99b7c5d04c53aa292803"
+babel-plugin-s2s-action-root@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-root/-/babel-plugin-s2s-action-root-0.2.1.tgz#f1203ca202cbaa4654dc438e9a06d63a7b56d017"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-plugin-syntax-flow "^6.18.0"
@@ -622,9 +622,9 @@ babel-plugin-s2s-reducer-root@^0.1.1:
     slash "^1.0.0"
     uppercamelcase "^3.0.0"
 
-babel-plugin-s2s-reducer-test-case@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-test-case/-/babel-plugin-s2s-reducer-test-case-0.2.0.tgz#ef2fda28d09a1a4025ee9c9a490a7bab8adf4903"
+babel-plugin-s2s-reducer-test-case@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-test-case/-/babel-plugin-s2s-reducer-test-case-0.3.0.tgz#5369e024853cd733275465e74597c06a0f2ef6d2"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-looks-like "^0.1.0"
@@ -633,6 +633,7 @@ babel-plugin-s2s-reducer-test-case@^0.2.0:
     babel-template "^6.26.0"
     babel-types "^6.26.0"
     camelcase "^4.1.0"
+    s2s-helper-get-initial-state "^0.1.0"
     s2s-helper-get-reducer-case "^0.1.1"
 
 babel-plugin-s2s-state-root@^0.1.3:
@@ -5861,6 +5862,13 @@ rx-lite-aggregates@^4.0.8:
 rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
+
+s2s-helper-get-initial-state@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/s2s-helper-get-initial-state/-/s2s-helper-get-initial-state-0.1.0.tgz#aacddd87f958cc86039d7b4790c8c7d634da1b07"
+  dependencies:
+    babel-traverse "^6.26.0"
+    babylon "^6.18.0"
 
 s2s-helper-get-reducer-case@^0.1.1:
   version "0.1.1"
