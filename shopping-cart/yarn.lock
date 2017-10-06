@@ -577,75 +577,88 @@ babel-plugin-jest-hoist@^20.0.3:
   version "20.0.3"
   resolved "https://registry.yarnpkg.com/babel-plugin-jest-hoist/-/babel-plugin-jest-hoist-20.0.3.tgz#afedc853bd3f8dc3548ea671fbe69d03cc2c1767"
 
-babel-plugin-s2s-action-creater@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-creater/-/babel-plugin-s2s-action-creater-0.1.3.tgz#a265279e653327affaffa8a0c53d7f9164331d90"
+babel-plugin-s2s-action-creater@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-creater/-/babel-plugin-s2s-action-creater-0.2.1.tgz#3065d7e69805cb044b0997d728b51dab0ed0112f"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-plugin-syntax-flow "^6.18.0"
-    babel-template "^6.26.0"
     babel-types "^6.26.0"
     lodash.camelcase "^4.3.0"
     lodash.snakecase "^4.1.1"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-utils "^0.2.0"
 
-babel-plugin-s2s-action-root@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-root/-/babel-plugin-s2s-action-root-0.2.1.tgz#f1203ca202cbaa4654dc438e9a06d63a7b56d017"
+babel-plugin-s2s-action-root@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-root/-/babel-plugin-s2s-action-root-0.3.1.tgz#c10368dd3e9abdc153e360878eb05e4c0a038cdf"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-plugin-syntax-flow "^6.18.0"
     babel-template "^6.26.0"
     babel-types "^6.26.0"
     globby "^6.1.0"
-    slash "^1.0.0"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-utils "^0.2.0"
     uppercamelcase "^3.0.0"
 
-babel-plugin-s2s-action-types@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-types/-/babel-plugin-s2s-action-types-0.2.1.tgz#8d82ac42483e5f79b8d8da692a0f193cb54f4599"
+babel-plugin-s2s-action-types@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-action-types/-/babel-plugin-s2s-action-types-0.4.1.tgz#fe9f679edc5ba3ed7004b28389f42085b79cb688"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-plugin-syntax-flow "^6.18.0"
-    babel-template "^6.26.0"
     babel-types "^6.26.0"
     lodash.snakecase "^4.1.1"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-utils "^0.2.0"
 
-babel-plugin-s2s-reducer-root@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-root/-/babel-plugin-s2s-reducer-root-0.1.1.tgz#10a98ca8c46d82e342595107b05cd66cf4089673"
+babel-plugin-s2s-reducer-case-creater@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-case-creater/-/babel-plugin-s2s-reducer-case-creater-0.1.0.tgz#ef1c6491f5a43c4f95a835c11cdf6e3260f97893"
+  dependencies:
+    babel-types "^6.26.0"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-helper-get-action-obj "^0.1.0"
+    s2s-utils "^0.2.0"
+
+babel-plugin-s2s-reducer-root@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-root/-/babel-plugin-s2s-reducer-root-0.2.1.tgz#8757db882ff2236541680f471275c8aace751511"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-plugin-syntax-flow "^6.18.0"
-    babel-template "^6.26.0"
     babel-types "^6.26.0"
     globby "^6.1.0"
-    slash "^1.0.0"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-utils "^0.2.0"
     uppercamelcase "^3.0.0"
 
-babel-plugin-s2s-reducer-test-case@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-test-case/-/babel-plugin-s2s-reducer-test-case-0.3.0.tgz#5369e024853cd733275465e74597c06a0f2ef6d2"
+babel-plugin-s2s-reducer-test-case@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-reducer-test-case/-/babel-plugin-s2s-reducer-test-case-0.4.1.tgz#cb30500e607458556a0a9687317bf03b57037318"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-looks-like "^0.1.0"
     babel-plugin-syntax-flow "^6.18.0"
     babel-polyfill "^6.26.0"
-    babel-template "^6.26.0"
     babel-types "^6.26.0"
     camelcase "^4.1.0"
-    s2s-helper-get-initial-state "^0.1.0"
-    s2s-helper-get-reducer-case "^0.1.1"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-helper-get-initial-state "^0.2.0"
+    s2s-helper-get-reducer-case "^0.2.0"
+    s2s-utils "^0.2.0"
 
-babel-plugin-s2s-state-root@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-state-root/-/babel-plugin-s2s-state-root-0.1.3.tgz#4f73f95a3ce1d630969cd56dac00ed7f4d5ae12b"
+babel-plugin-s2s-state-root@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-s2s-state-root/-/babel-plugin-s2s-state-root-0.2.1.tgz#d3f2fdaf72a40cfc038602e13584a17e90153d2b"
   dependencies:
     babel-add-flow-comments "^0.2.0"
     babel-plugin-syntax-flow "^6.18.0"
-    babel-template "^6.26.0"
     babel-types "^6.26.0"
     globby "^6.1.0"
-    slash "^1.0.0"
+    s2s-babel-flow-types "^0.2.0"
+    s2s-utils "^0.2.0"
     uppercamelcase "^3.0.0"
 
 babel-plugin-syntax-async-functions@^6.8.0:
@@ -5863,23 +5876,41 @@ rx-lite@*, rx-lite@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-4.0.8.tgz#0b1e11af8bc44836f04a6407e92da42467b79444"
 
-s2s-helper-get-initial-state@^0.1.0:
+s2s-babel-flow-types@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/s2s-babel-flow-types/-/s2s-babel-flow-types-0.2.0.tgz#328309d964243f19a64d43108759e8d7acd87edf"
+
+s2s-helper-get-action-obj@^0.1.0:
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/s2s-helper-get-initial-state/-/s2s-helper-get-initial-state-0.1.0.tgz#aacddd87f958cc86039d7b4790c8c7d634da1b07"
+  resolved "https://registry.yarnpkg.com/s2s-helper-get-action-obj/-/s2s-helper-get-action-obj-0.1.0.tgz#0d39f0ad0cc06d566c743f5f2bfe95ca41d1667e"
   dependencies:
     babel-traverse "^6.26.0"
     babylon "^6.18.0"
 
-s2s-helper-get-reducer-case@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/s2s-helper-get-reducer-case/-/s2s-helper-get-reducer-case-0.1.1.tgz#fd4db21fb08b4f3025dee0cd12420b629af7034d"
+s2s-helper-get-initial-state@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/s2s-helper-get-initial-state/-/s2s-helper-get-initial-state-0.2.0.tgz#a4e44da090e6627e8ad236ec91077391adf3db94"
   dependencies:
     babel-traverse "^6.26.0"
     babylon "^6.18.0"
 
-s2s@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/s2s/-/s2s-0.6.2.tgz#ae35d2dfd565af8a16c26abdec6c90cbf3f541ab"
+s2s-helper-get-reducer-case@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/s2s-helper-get-reducer-case/-/s2s-helper-get-reducer-case-0.2.0.tgz#07b875c6aeae313e1e198903804734ee94d0a16a"
+  dependencies:
+    babel-traverse "^6.26.0"
+    babylon "^6.18.0"
+
+s2s-utils@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/s2s-utils/-/s2s-utils-0.2.0.tgz#67e22e230aed6e2db5ec11ee864e82d34fa01a97"
+  dependencies:
+    babel-template "^6.26.0"
+    slash "^1.0.0"
+
+s2s@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/s2s/-/s2s-0.7.0.tgz#c49855b92062cfdbadd1457176ddede9ab31edac"
   dependencies:
     babel-core "^6.25.0"
     babel-polyfill "^6.26.0"
