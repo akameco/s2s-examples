@@ -1,3 +1,6 @@
+# **MOVED! SEE [s2s-plugins/examples](https://github.com/akameco/s2s-plugins/tree/master/examples)**
+
+
 # s2s-examples
  [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
