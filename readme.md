@@ -1,4 +1,6 @@
-# **MOVED! SEE [s2s-plugins/examples](https://github.com/akameco/s2s-plugins/tree/master/examples)**
+# **Moved! Jump [akameco/s2s:examples](https://github.com/akameco/s2s/tree/master/examples)** :)
+
+<img src="http://78.media.tumblr.com/626ee89915670341346f38dd33f55ef1/tumblr_ol8dj0b6my1tr842yo1_r1_540.gif"/>
 
 
 # s2s-examples
